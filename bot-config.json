@@ -1,1 +1,34 @@
+{
+  "botId": "fa6e8f97-d9e0-4db8-ba45-d013213913c7", 
+  "configuration": {
+    "website": {
+      "name": "Fin Buddy",
+      "greetingMessage": "Hi, I'm Fin Buddy, your personal financial assistant. How can I help you today?",
+      "avatarUrl": "https://your-image-url.com/avatar.png", 
+      "description": "Manage your finances with ease. Track expenses, get budgeting advice, and receive investment tips."
+    },
+    "email": {
+      "enabled": true,
+      "email": "support@finbuddy.com"
+    },
+    "phone": {
+      "enabled": true,
+      "phoneNumber": "+1-800-123-4567"
+    },
+    "termsOfService": {
+      "enabled": true,
+      "url": "https://www.finbuddy.com/terms-of-service"
+    },
+    "privacyPolicy": {
+      "enabled": true,
+      "url": "https://www.finbuddy.com/privacy-policy"
+    },
+    "color": "#3B82F6", 
+    "variant": "solid", 
+    "themeMode": "light", 
+    "fontFamily": "inter", 
+    "radius": 1
+  },
+  "clientId": "1279e86b-a51f-494f-bc3e-678b455d1782"
+}
 
