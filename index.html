@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fin Buddy - Your Personal Financial Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #3B82F6;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #3B82F6;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .feature {
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Fin Buddy!</h1>
+    <p>Your personal financial assistant powered by AI</p>
+  </header>
+
+  <section>
+    <h2>About Fin Buddy</h2>
+    <p>Fin Buddy is an AI-powered chatbot designed to help students and professionals manage their finances better. With Fin Buddy, you can:</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Track Expenses</h3>
+        <p>Easily input your daily expenses and get a weekly summary of your spending habits.</p>
+      </div>
+      <div class="feature">
+        <h3>Budgeting Advice</h3>
+        <p>Get personalized recommendations on how to budget your money effectively for the upcoming week.</p>
+      </div>
+      <div class="feature">
+        <h3>Investment Tips</h3>
+        <p>Receive tips on how to invest your money wisely to ensure long-term financial growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Try Fin Buddy Now!</h2>
+    <p>Chat with Fin Buddy and start managing your finances today.</p>
+  </section>
+
+  <!-- Add the Botpress chatbot script here -->
+  <script src="https://cdn.botpress.cloud/webchat/v2.2/webchat.min.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      host: 'https://cdn.botpress.cloud/webchat/v2.2',  // Botpress CDN
+      botId: 'fa6e8f97-d9e0-4db8-ba45-d013213913c7',   // Your Bot's ID
+      configUrl: 'https://raw.githubusercontent.com/<your-username>/<repository-name>/main/<your-bot-config-file>.json', // Path to your JSON configuration file
+      showPoweredBy: false,  // To hide the "Powered by Botpress" message
+    });
+  </script>
+
+  <footer>
+    <p>Created by Code Crew</p>
+  </footer>
+
+</body>
+</html>
